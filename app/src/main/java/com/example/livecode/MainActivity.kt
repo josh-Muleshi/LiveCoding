@@ -70,7 +70,8 @@ fun ItemUI(photo : Int) {
         modifier = Modifier
             .fillMaxWidth()
     ) {
-        Card(modifier = Modifier
+        Card(
+            modifier = Modifier
             .padding(top = 24.dp, bottom = 24.dp, end = 7.dp, start = 8.dp)
             .width(300.dp),
             elevation = 2.dp,
